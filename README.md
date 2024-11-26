@@ -8,15 +8,15 @@ Tired of going all the way into Control Panel to change your Power Plan? This si
 
 ## Features
 
-- Displays Active PP
-- Automatic PP Detection
-- Change PP in a Click & Tap!
+- Displays Active Power Plan
+- Automatic Power Plan Detection
+- Change Power Plan in a Click & Tap!
 
 ---
 
 ## Usage
 
-Install requirements, run the script and select your PP of choice!
+Run the script and select your Power Plan of choice!
 
 ![demo](img/demo.png)
 
@@ -24,5 +24,6 @@ Install requirements, run the script and select your PP of choice!
 
 ## Roadmap
 
-- Custom PP Sorting
-- Shortcut to Create New PP
+- Custom Power Plan Sorting
+- Shortcut to Create New Power Plan
+- Mega Awesome System Tray Icon
