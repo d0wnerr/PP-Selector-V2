@@ -27,6 +27,7 @@ def ppPrompt():
     print()
     for i, (_, name) in enumerate(guids, start=1): 
         print(f"{i} - {name}")
+    print("N - New Power Plan")
     print()
     selectedPP = input("Power mode: ")
     ppValidation()
@@ -36,6 +37,8 @@ def ppValidation():
     global selectedPP
     if selectedPP == "":
         print()
+    elif selectedPP == "N" or "n":
+        ppNewPP()
     else:    
         try:
             selectedIndex = int(selectedPP) - 1
@@ -58,6 +61,13 @@ def ppExecutor():
     print("Success")
     print()
     print(f"Current PP: {dict(guids).get(selectedPP)}")
+    input()
+
+def ppNewPP():
+    print()
+    print("Opening Power Plan Menu...")
+    subprocess.run(["powercfg.cpl"], shell=True, )
+    print("Success")
     input()
 
 ppPrompt()
