@@ -10,6 +10,7 @@ Tired of going all the way into Control Panel to change your Power Plan? This si
 
 - Displays Active Power Plan
 - Automatic Power Plan Detection
+- Shortcut to Create New Power Plan
 - Change Power Plan in a Click & Tap!
 
 ---
@@ -25,5 +26,4 @@ Run the script and select your Power Plan of choice!
 ## Roadmap
 
 - Custom Power Plan Sorting
-- Shortcut to Create New Power Plan
 - Mega Awesome System Tray Icon
